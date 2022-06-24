@@ -15,12 +15,12 @@ def rod_cutting(price, N):
             elif length[n - 1] > w:
                 t[n][w] = t[n - 1][w]
 
-    return t[N][rod_length]
+    return t[N][3]
 
 
 if __name__ == '__main__':
     info = {
-        'price': [3, 5, 8, 9, 10, 17, 17, 20],
-        'n': 8
+        'price': [2,3,7,9,13,14,19,23,25.29],
+        'n': 9
     }
     print('profit : {}'.format(rod_cutting(info['price'], info['n'])))
