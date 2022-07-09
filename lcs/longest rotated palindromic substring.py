@@ -31,3 +31,15 @@ class Solution:
             ans = max(ans, self.dp(word))
             i, j = i + 1, j + 1
         return ans
+
+    class Solution:
+        def solve(self, s):
+            n = len(s)
+            s = 2 * s
+            ans = 0
+            for i in range(n):
+                for j in range(n + 1):
+                    temp = s[i:i + j]
+                    if temp == temp[::-1] and len(temp) > ans:
+                        ans = len(temp)
+            return ans
