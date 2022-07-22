@@ -73,5 +73,5 @@ def solve_better(str):
 
 
 if __name__ == '__main__':
-    word = 'abccbc'
+    word = 'abba'
     solve_better(word)
