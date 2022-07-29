@@ -1,3 +1,6 @@
+from bisect import bisect_left
+
+
 class Solution:
     def solve(self, matrix):
         matrix.sort()
@@ -17,3 +20,20 @@ class Solution:
         # print(t)
 
         return max(t)
+
+
+class Solution:
+    def solve(self, matrix):
+        matrix.sort(key=lambda x: (x[0], -x[1]))
+        n = len(matrix)
+        lis = [matrix[0][1]]
+
+        for num in matrix[1:]:
+            # print(lis, num[1])
+            if lis and num[1] > lis[-1]:
+                lis.append(num[1])
+            else:
+                idx = bisect_left(lis, num[1])
+                lis[idx] = num[1]
+
+        return len(lis)
