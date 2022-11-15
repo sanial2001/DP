@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="357900de-e60c-4416-a168-2e731143cf19" name="Changes" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/lcs/unique subsequences equal to target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closest subsequence sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663588434373</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new commit">
+      <created>1664734374536</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664734374536</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
