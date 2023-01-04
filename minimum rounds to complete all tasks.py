@@ -1,3 +1,7 @@
+import collections
+from typing import List
+
+
 class Solution:
     def solve(self, n):
         if n == 1 or n < 0:
